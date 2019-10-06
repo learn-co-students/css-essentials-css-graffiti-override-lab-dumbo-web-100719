@@ -1,5 +1,5 @@
 /* write your override styles here */
-#wall div {
+#wall .tag-1 {
   display: none;
 }
 
@@ -16,5 +16,13 @@
 }
 
 div#wall div.parent #tag-5.slick {
+  display: none;
+}
+
+.touchpadSwipeAnimationCore div#wall div.parent div:last-child div#tag-6 {
+  display: none; 
+}
+
+body.touchpadSwipeAnimationCore div#wall div.parent div > #tag-7.slick {
   display: none;
 }
